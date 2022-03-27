@@ -1,0 +1,30 @@
+.footer {
+	background: #46AD91;
+	min-height: 72px;
+	padding: 24px 0;
+	color: #fff;
+	line-height: math.div(24, 16) * 100%;
+	font-weight: 400;
+}
+.footer__body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.footer__links {
+	display: flex;
+	gap: 32px;
+}
+.footer__link {
+	display: inline-block;
+	transition: all .3s ease 0s;
+	&:hover{
+		color: $mainColor;
+	}
+}
+a.footer__link_politic {
+	text-decoration: underline;
+	letter-spacing: 0.1px;
+}
